@@ -10,6 +10,8 @@ use App\Http\Controllers\Auth\ForgetPasswordController;
 // Authentication routes
 Route::controller(LoginController::class)->group(function () {
     Route::get('/login', 'showLoginForm')->name('login');
+    //changed landing page to login page
+    Route::get('/', 'showLoginForm')->name('login');
     Route::post('/login', 'login');
     Route::post('/logout', 'logout');
 });

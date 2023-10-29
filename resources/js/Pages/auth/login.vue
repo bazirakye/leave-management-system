@@ -44,7 +44,8 @@
                         <button @click="roleLogin('owner@mail.com', 'password')" class="btn btn-secondary mx-1">Login Via Owner</button>
                         <button @click="roleLogin('employee@mail.com', 'password')" class="btn btn-secondary">Login Via
                             Employee</button>
-                    </div>
+                    </
+                    div>
                 </div>
             </div> -->
         </div>
